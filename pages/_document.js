@@ -28,12 +28,12 @@ class MyDocument extends Document {
 
           {/* Place your SEO metadata within the Head section */}
           <DefaultSeo
-            title="Youtube Thumbnail Downloader QQQ"
+            title="Youtube Thumbnail Downloader "
             description="Download high-quality thumbnails from YouTube videos."
             canonical="https://your-website-url.com"
             openGraph={{
               url: "https://your-website-url.com",
-              title: "Youtube Thumbnail Downloader QQQ",
+              title: "Youtube Thumbnail Downloader ",
               description: "Unlock Stunning YouTube Video Thumbnails: Download Crisp, High-Quality Images Instantly.",
               site_name: "Youtube Thumbnail Downloader",
             }}
@@ -43,16 +43,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <div>
-      <h1>YouTube Thumbnail Downloader</h1>
-      <p>▷ Save YT Video Thumbnails</p>
-      <p>Get free thumbnail image of any YouTube videos in Full HD(1080), HD (720), SD, and also in small size. It's currently supported formats: YouTube (HD, HQ, 1080p, 4K) videos</p>
-
-      <h2>What is the use of this YouTube Thumbnail Grabber website?</h2>
-      <p>People use this YouTube thumbnail downloader website for getting thumbnail from any YouTube videos. That can be used in presentation, animation work, or many other activities.</p>
-
-      {/* Add the rest of your content here */}
-    </div>
       </Html>
     );
   }
