@@ -25,19 +25,39 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-
           {/* Place your SEO metadata within the Head section */}
           <DefaultSeo
             title="Youtube Thumbnail Downloader "
             description="Download high-quality thumbnails from YouTube videos."
-            canonical="https://your-website-url.com"
+            canonical="https://thumbnail-youtube-download.xyz"
             openGraph={{
-              url: "https://your-website-url.com",
+              url: "https://thumbnail-youtube-download.xyz",
               title: "Youtube Thumbnail Downloader ",
               description: "Unlock Stunning YouTube Video Thumbnails: Download Crisp, High-Quality Images Instantly.",
               site_name: "Youtube Thumbnail Downloader",
+              images: [
+                {
+                  url: "https://thumbnail-youtube-download.xyz/thumbnail.jpg",
+                  width: 1200,
+                  height: 630,
+                  alt: "Thumbnail Image",
+                },
+              ],
             }}
           />
+          {/* Add the provided HTML code here */}
+          <title>Download YouTube Thumbnails - Fast and Easy</title>
+          <meta name="description" content="Download YouTube thumbnails in high quality and without watermarks." />
+          <meta name="keywords" content="youtube, thumbnail, download, free, online, high quality, no watermarks, youtube thumbnail download, thumbnail download, thumbnail grabber, youtube thumbnail grabber, template thumbnail youtube, yt thumbnail download, video thumbnail downloader, save youtube thumbnail, youtube download thumbnail, yt thumbnail grabber, youtube thumbnail extractor" />
+          <meta name="robots" content="index, follow" />
+          <meta name="author" content="Your Name" />
+          <meta property="og:title" content="Download YouTube Thumbnails" />
+          <meta property="og:description" content="Download YouTube thumbnails in high quality and without watermarks." />
+          <meta property="og:image" content="https://thumbnail-youtube-download.xyz/thumbnail.jpg" />
+          <meta property="twitter:title" content="Download YouTube Thumbnails" />
+          <meta property="twitter:description" content="Download YouTube thumbnails in high quality and without watermarks." />
+          <meta property="twitter:image" content="https://thumbnail-youtube-download.xyz/thumbnail.jpg" />
+          <link rel="canonical" href="https://thumbnail-youtube-download.xyz/youtube-thumbnail-download" />
         </Head>
         <body>
           <Main />
